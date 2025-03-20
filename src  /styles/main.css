@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 60%;
+}
+
+
+body {
+  background: #1b1c31;
+
+}
+
+.container-main{
+  width: 710px;
+  margin: auto;
+
+}
+.game {
+  padding: 5rem;
+  margin: auto;
+  margin-top: 4rem;
+  background: #1b1c31;
+  border-radius: 1rem;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
+  transition: all .4s;
+}
+
+.info-container {
+  margin-top: 4rem;
+  padding: 3rem 9rem;
+  text-align: center;
+}
+
+.sub-info-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 5rem;
+  background: linear-gradient(to right, #25b982, #60a5fb);
+  background-clip:text;
+  color: transparent;
+  transition: all .4s;
+}
+
+h1:hover{
+ transform: skew(15deg) scale(1.1);
+}
+
+span{
+  font-size: 3rem;
+  background: linear-gradient(to right, #25b982, #60a5fb);
+  background-clip:text;
+  color: transparent;
+}
+
+.snakeGrid {
+  position: relative;
+  background-color: #111827;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  transition: all .4s;
+}
+
+.snake {
+  position: absolute;
+  border: solid;
+}
+
+.apple {
+  position: absolute;
+}
+
+img{
+  width: 50px;
+  z-index: 10;
+  margin-left: -1.8rem;
+  margin-top: -1.9rem;
+
+}
+
+.snakeBody {
+  position: absolute;
+  background-color: green;
+  border-radius: .5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  border: 2rem;
+}
+
+
+.btn{
+  width: 15rem;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  border-radius: .6rem;
+  margin-left: 4rem;
+  text-transform: uppercase;
+  border: none;
+  color: #94a3b8;
+  transition: all .4s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  background-color:#1b1c31;
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.start-btn{
+  color: #25b982;
+}
+
+.stop-btn{
+  color: #ef4544;
+}
+
+.restart-btn{
+  color: #60a5fb;
+}
+
+
+
+
+
+.game:hover{
+  transform: translateY(-1rem) scale(1.01);
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.8);
+}
+
+.btn:hover{
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-.5rem) scale(1.1);
+}
+
+.start-btn:hover{
+  outline: solid 2px #25b982 ;
+}
+
+.stop-btn:hover{
+  outline: solid 2px #ef4544 ;
+}
+
+.restart-btn:hover{
+  outline: solid 2px #60a5fb;
+}
+.points {
+
+}

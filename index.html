@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    
+    <!-- Link to Compiled CSS -->
+    <link rel="stylesheet" href="src  /styles/main.css">
+</head>
+<body>
+    <div class="container-main">
+            <div class="info-container game">
+            <h1 class="text">Snake Game</h1>
+
+            <div class="sub-info-container">
+                <div class="points">
+                    <span>Points:</span>
+                    <span id="points">0</span>
+                </div>
+
+                <div class="record">
+                    <span>Record:</span>
+                    <span>0</span>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="game" class="game">
+            <div class="btn-container">
+                <button id="startB" class="btn start-btn">start</button>
+                <button id="stopB" class="btn stop-btn">stop</button>
+                <button id="restartB" class="btn restart-btn">restart</button>
+            </div>
+        </div>
+
+        <div class="snakeGrid" id="snakeGrid">
+            <div id="snake" class="snake">
+                <img src="src  /assets/images/snake.png" id="head">
+            </div>
+
+            <div class="apple" id="apple">
+                <img src="src  /assets/images/apple.png">
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!-- Link to JavaScript File -->
+    <script type="module" src="src  /js/main.js"></script>
+</body>
+</html>
